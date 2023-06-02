@@ -3,7 +3,7 @@
 <p align="center"> <a align="center" href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub">Solution Page</a><p>
 <h2 align="center">Project Screenshot<h2>
 <p align="center">
-  <img src="./images/screenshot.png"></img>
+  <img src="./images/screenshot.PNG"></img>
 </p>
 
 ## Description
