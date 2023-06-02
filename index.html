@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
@@ -17,19 +19,22 @@
 <body>
   <main>
   <div id="mainContainer">
-    <div id="innerContainer">
-<h1>  Get insights that help your business grow.</h1>
+    <div id="textContainer">
+<h1>  Get <span>insights</span>  that help your business grow.</h1>
 <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.</p>
   <div id="statsContainer">
   <ul>
-    <li>  10k+ companies</li>
-    <li>  314 templates</li>
-    <li>  12m+ queries</li>
+    <li><span class="statsSpan">10k+</span> companies</li>
+    <li><span class="statsSpan">314</span> templates</li>
+    <li><span class="statsSpan">12m+</span> queries</li>
   </ul>
 </div>
 </div>
-  <img src="/images/image-header-desktop.jpg" alt="colleagues sitting in an office">
+<div id="imgContainer">
+  <div class="overlay-color"></div>
+<img src="/images/image-header-desktop.jpg" alt="colleagues sitting at an office desk" srcset="">
+
 
 </div>
 </main>

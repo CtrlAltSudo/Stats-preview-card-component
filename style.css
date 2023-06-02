@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 main {
     height: 100vh;
     display: flex;
@@ -5,24 +9,79 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 #mainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black 2px;
+    background-color:#1b1938;
+    color: white;
     border-radius: 0.5rem;
 }
-#innerContainer {
-    display: flex;
-    flex-direction: column;
-/*     padding: 2rem; */
-    width: 25rem;
-    
+#textContainer {
+    width: 28rem;
+    padding: 0 3rem 2rem 3rem;
+}
+
+#imgContainer {
+    position: relative;
+    display: block;
+}
+.overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    background-color: hsla(275, 100%, 25%, 0.527); /* Adjust the color and opacity as needed */
+  }
+
+#imgContainer img {
+    width: 28rem;
+    height: 100%;
+    display: block;
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 2.5rem 0 0 0;
     list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin-top: 3rem;
 }
+li {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.statsSpan {
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+  }
