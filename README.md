@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a 3-column preview card component challenge by Frontend Mentor, Frontend Mentor is a website that provides various web development challenges to help you develop your coding skills.
+This is a stats preview card  component challenge by Frontend Mentor, Frontend Mentor is a website that provides various web development challenges to help you develop your coding skills.
 
 ## Built with 
 
