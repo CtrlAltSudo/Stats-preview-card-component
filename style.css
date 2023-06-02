@@ -1,0 +1,28 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 0.5rem;
+}
+#innerContainer {
+    display: flex;
+    flex-direction: column;
+/*     padding: 2rem; */
+    width: 25rem;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
